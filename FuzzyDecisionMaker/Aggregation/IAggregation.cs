@@ -9,5 +9,6 @@ namespace FuzzyDecisionMaker.Aggregation
     public interface IAggregation
     {
         double Call(IEnumerable<double> arr);
+        double Call(IEnumerable<Tuple<double, double>> arr);
     }
 }

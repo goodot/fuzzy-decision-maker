@@ -12,6 +12,9 @@ namespace FuzzyDecisionMaker.Aggregation
         {
             return arr.Average();
         }
-        
+        public double Call(IEnumerable<Tuple<double,double>> arr)
+        {
+            return arr.Sum(a => a.Item1 * a.Item2)/arr.Sum(a=>a.Item1);
+        }
     }
 }

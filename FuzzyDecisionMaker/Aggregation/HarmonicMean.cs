@@ -13,5 +13,10 @@ namespace FuzzyDecisionMaker.Aggregation
             double n = arr.Count();
             return n / arr.Aggregate((a, b) => 1.0 / a + 1.0 / b);
         }
+
+        public double Call(IEnumerable<Tuple<double, double>> arr)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
