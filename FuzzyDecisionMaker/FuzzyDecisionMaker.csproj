@@ -41,11 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aggregation\ArithmeticMean.cs" />
+    <Compile Include="Aggregation\GeometricMean.cs" />
+    <Compile Include="Aggregation\IAggregation.cs" />
     <Compile Include="Membership\MembershipFunction.cs" />
+    <Compile Include="Membership\Polygon\Trimf.cs" />
+    <Compile Include="Membership\Sigmoid\SNonLinear.cs" />
+    <Compile Include="Membership\Threshold.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Aggregation\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
