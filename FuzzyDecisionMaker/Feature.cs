@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FuzzyDecisionMaker
 {
-    public class Feature<T>
+    public class Feature
     {
-        public T Item { get; set; }
+        public string Identity { get; set; }
         public double Weight { get; set; } = 1;
     }
 }
