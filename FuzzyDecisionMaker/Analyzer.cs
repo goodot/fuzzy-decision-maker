@@ -23,6 +23,7 @@ namespace FuzzyDecisionMaker
 
         public List<Result> Analyze()
         {
+
             throw new NotImplementedException();
         }
     }

@@ -43,7 +43,13 @@
   <ItemGroup>
     <Compile Include="Aggregation\ArithmeticMean.cs" />
     <Compile Include="Aggregation\GeometricMean.cs" />
+    <Compile Include="Aggregation\HarmonicMean.cs" />
     <Compile Include="Aggregation\IAggregation.cs" />
+    <Compile Include="Analyzer.cs" />
+    <Compile Include="Common\NameValuePair.cs" />
+    <Compile Include="Common\Result.cs" />
+    <Compile Include="Feature.cs" />
+    <Compile Include="Item.cs" />
     <Compile Include="Membership\MembershipFunction.cs" />
     <Compile Include="Membership\Polygon\Trimf.cs" />
     <Compile Include="Membership\Sigmoid\SNonLinear.cs" />
